@@ -1,654 +1,455 @@
-
-<!DOCTYPE html>
+<html>
 
 <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <style type="text/css">
-        @import url('https://themes.googleusercontent.com/fonts/css?kit=xTOoZr6X-i3kNg7pYrzMsnEzyYBuwf3lO_Sc3Mw9RUVbV0WvE1cEyAoIq5yYZlSc');
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Lato;}
+@font-face
+	{font-family:Raleway;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Lato",sans-serif;}
+h1
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:Raleway;}
+h2
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Lato",sans-serif;}
+h3
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:9.0pt;
+	font-family:"Lato",sans-serif;
+	color:#666666;
+	font-weight:normal;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:24.0pt;
+	font-family:Raleway;
+	font-weight:bold;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:Raleway;
+	color:#F2511B;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-family:"Lato",sans-serif;}
+.MsoPapDefault
+	{margin-top:6.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:.5in .75in .5in .75in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
 
-        ol {
-            margin: 0;
-            padding: 0
-        }
-
-        table td,
-        table th {
-            padding: 0
-        }
-
-        .c9 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #ffffff;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #ffffff;
-            vertical-align: top;
-            border-right-color: #ffffff;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 327.7pt;
-            border-top-color: #ffffff;
-            border-bottom-style: solid
-        }
-
-        .c26 {
-            border-right-style: solid;
-            padding: 3.6pt 3.6pt 3.6pt 3.6pt;
-            border-bottom-color: #ffffff;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #ffffff;
-            vertical-align: top;
-            border-right-color: #ffffff;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 176.3pt;
-            border-top-color: #ffffff;
-            border-bottom-style: solid
-        }
-
-        .c0 {
-            background-color: #ffffff;
-            color: #222222;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 11pt;
-            font-family: "Arial";
-            font-style: normal
-        }
-
-        .c3 {
-            background-color: #ffffff;
-            color: #222222;
-            font-weight: 700;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 11pt;
-            font-family: "Arial";
-            font-style: normal
-        }
-
-        .c8 {
-            color: #000000;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 10pt;
-            font-family: "Lato";
-            font-style: normal
-        }
-
-        .c4 {
-            color: #f2511b;
-            font-weight: 700;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 12pt;
-            font-family: "Lato";
-            font-style: normal
-        }
-
-        .c1 {
-            color: #666666;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 9pt;
-            font-family: "Lato";
-            font-style: normal
-        }
-
-        .c7 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .c16 {
-            color: #000000;
-            font-weight: 700;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-family: "Lato";
-            font-style: normal
-        }
-
-        .c48 {
-            margin-left: -0.8pt;
-            padding-top: 6pt;
-            padding-bottom: 0pt;
-            line-height: 1.2;
-            text-align: left
-        }
-
-        .c6 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            text-align: left;
-            height: 11pt
-        }
-
-        .c25 {
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 12pt;
-            font-family: "Raleway";
-            font-style: normal
-        }
-
-        .c34 {
-            padding-top: 16pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            text-align: left
-        }
-
-        .c46 {
-            text-decoration-skip-ink: none;
-            -webkit-text-decoration-skip: none;
-            color: #1155cc;
-            text-decoration: underline
-        }
-
-        .c22 {
-            text-decoration: none;
-            vertical-align: baseline;
-            font-family: "Arial";
-            font-style: normal
-        }
-
-        .c12 {
-            padding-top: 4pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            text-align: left
-        }
-
-        .c42 {
-            border-spacing: 0;
-            border-collapse: collapse;
-            margin-right: auto
-        }
-
-        .c40 {
-            padding-top: 5pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            text-align: left
-        }
-
-        .c18 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            text-align: left
-        }
-
-        .c13 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            text-align: left
-        }
-
-        .c45 {
-            padding-top: 3pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            text-align: left
-        }
-
-        .c14 {
-            padding-top: 6pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            text-align: left
-        }
-
-        .c41 {
-            padding-top: 6pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            text-align: left
-        }
-
-        .c11 {
-            padding-top: 5pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            text-align: left
-        }
-
-        .c17 {
-            font-size: 9pt;
-            font-family: "Lato";
-            font-weight: 400
-        }
-
-        .c29 {
-            text-decoration: none;
-            vertical-align: baseline;
-            font-style: normal
-        }
-
-        .c2 {
-            font-size: 11pt;
-            font-family: "Lato";
-            font-weight: 400
-        }
-
-        .c47 {
-            background-color: #ffffff;
-            max-width: 504pt;
-            padding: 36pt 54pt 36pt 54pt
-        }
-
-        .c39 {
-            font-size: 24pt;
-            font-family: "Raleway"
-        }
-
-        .c43 {
-            font-size: 16pt;
-            font-family: "Raleway"
-        }
-
-        .c23 {
-            orphans: 2;
-            widows: 2
-        }
-
-        .c50 {
-            margin-left: -0.8pt;
-            margin-right: -1.5pt
-        }
-
-        .c33 {
-            color: #666666;
-            font-family: "Lato"
-        }
-
-        .c37 {
-            color: #d44500;
-            font-family: "Lato"
-        }
-
-        .c31 {
-            color: inherit;
-            text-decoration: inherit
-        }
-
-        .c36 {
-            background-color: #ffffff;
-            color: #222222
-        }
-
-        .c27 {
-            font-size: 14pt;
-            font-family: "Lato"
-        }
-
-        .c38 {
-            height: 120pt
-        }
-
-        .c49 {
-            height: 0pt
-        }
-
-        .c5 {
-            height: 265pt
-        }
-
-        .c24 {
-            height: 72pt
-        }
-
-        .c44 {
-            height: 182pt
-        }
-
-        .c20 {
-            color: #000000
-        }
-
-        .c32 {
-            font-size: 9pt
-        }
-
-        .c30 {
-            page-break-after: avoid
-        }
-
-        .c35 {
-            font-family: "Arial"
-        }
-
-        .c15 {
-            font-size: 10pt
-        }
-
-        .c21 {
-            font-weight: 700
-        }
-
-        .c19 {
-            font-size: 11pt
-        }
-
-        .c10 {
-            height: 11pt
-        }
-
-        .c28 {
-            font-weight: 400
-        }
-
-        .title {
-            padding-top: 6pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 24pt;
-            padding-bottom: 0pt;
-            font-family: "Raleway";
-            line-height: 1.0;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .subtitle {
-            padding-top: 3pt;
-            color: #f2511b;
-            font-weight: 700;
-            font-size: 16pt;
-            padding-bottom: 0pt;
-            font-family: "Raleway";
-            line-height: 1.0;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        li {
-            color: #000000;
-            font-size: 11pt;
-            font-family: "Lato"
-        }
-
-        p {
-            margin: 0;
-            color: #000000;
-            font-size: 11pt;
-            font-family: "Lato"
-        }
-
-        h1 {
-            padding-top: 4pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 12pt;
-            padding-bottom: 0pt;
-            font-family: "Raleway";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h2 {
-            padding-top: 6pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 11pt;
-            padding-bottom: 0pt;
-            font-family: "Lato";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h3 {
-            padding-top: 6pt;
-            color: #666666;
-            font-size: 9pt;
-            padding-bottom: 0pt;
-            font-family: "Lato";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h4 {
-            padding-top: 8pt;
-            -webkit-text-decoration-skip: none;
-            color: #666666;
-            text-decoration: underline;
-            font-size: 11pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            page-break-after: avoid;
-            text-decoration-skip-ink: none;
-            font-family: "Trebuchet MS";
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h5 {
-            padding-top: 8pt;
-            color: #666666;
-            font-size: 11pt;
-            padding-bottom: 0pt;
-            font-family: "Trebuchet MS";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h6 {
-            padding-top: 8pt;
-            color: #666666;
-            font-size: 11pt;
-            padding-bottom: 0pt;
-            font-family: "Trebuchet MS";
-            line-height: 1.15;
-            page-break-after: avoid;
-            font-style: italic;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-    </style>
 </head>
 
-<body class="c47">
-    <p class="c18 c23 c10 c50 subtitle" id="h.88hjc8sweuxg"><span class="c4"></span></p><a
-        id="t.e943cfeb87ffb9239c2b501ab1e8c0c830a7427e"></a><a id="t.0"></a>
-    <table class="c42">
-        <tbody>
-            <tr class="c38">
-                <td class="c26" colspan="1" rowspan="1">
-                    <p class="c13 c30 title" id="h.4prkjmzco10w"><span>Betros Abraha</span></p>
-                    <p class="c45 subtitle" id="h.o2iwx3vdck7p"><span class="c20">Aspiring Engineer</span></p>
-                </td>
-                <td class="c9" colspan="1" rowspan="1">
-                    <p class="c13"><span
-                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 418.00px; height: 2.67px;"><img
-                                alt="" src="images/image1.png"
-                                style="width: 418.00px; height: 2.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                                title="horizontal line"></span></p>
-                    <h1 class="c14" id="h.lf5wiiqsu4ub"><span>Betros Abraha</span></h1>
-                    <p class="c13"><span class="c8">2035 20th ave</span></p>
-                    <p class="c13"><span class="c15">Oakland CA, 94606</span></p>
-                    <p class="c6"><span class="c29 c15 c28 c37"></span></p>
-                    <p class="c13"><span class="c8">(510)987-6603</span></p>
-                    <p class="c13"><span class="c15 c46"><a class="c31"
-                                href="mailto:bbabraha@ucsc.edu">bbabraha@ucsc.edu</a></span></p>
-                    <p class="c6"><span class="c8"></span></p>
-                    <p class="c18"><span
-                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 418.00px; height: 2.67px;"><img
-                                alt="" src="images/image1.png"
-                                style="width: 418.00px; height: 2.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                                title="horizontal line"></span></p>
-                    <p class="c18 c10"><span class="c8"></span></p>
-                    <p class="c18 c23"><span class="c28 c35">I am a third-year majoring in Electrical Engineering and
-                            Computer Science at the University of California Santacruz. I am a data-driven and
-                            analytical-minded student. I enjoy broadening my horizons on new technologies such as AI,
-                            machine learning &amp; Robotics. I also seek to develop my skills through internships and
-                            work experience. As a first-generation African student, I aim to serve as a positive role
-                            model in my community.</span></p>
-                    <p class="c6"><span class="c8"></span></p>
-                </td>
-            </tr>
-            <tr class="c24">
-                <td class="c26" colspan="1" rowspan="1">
-                    <p class="c13"><span class="c27 c21">&#12641;</span></p>
-                    <h1 class="c12" id="h.61e3cm1p1fln"><span class="c25 c20 c21">Skills</span></h1>
-                </td>
-                <td class="c9" colspan="1" rowspan="1">
-                    <p class="c18"><span
-                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 418.00px; height: 2.67px;"><img
-                                alt="" src="images/image1.png"
-                                style="width: 418.00px; height: 2.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                                title="horizontal line"></span></p>
-                    <p class="c18 c23 c10"><span class="c22 c20 c19 c28"></span></p>
-                    <p class="c18 c23"><span class="c22 c20 c21 c19">Programming language </span></p>
-                    <p class="c18 c10 c23"><span class="c20 c21 c19 c22"></span></p>
-                    <p class="c18 c23"><span class="c35 c28 c36">HTML, CSS, Angular</span></p>
-                    <p class="c18 c23"><span class="c22 c20 c19 c28">C, C++, Python, and java.</span></p>
-                    <p class="c18 c23 c10"><span class="c22 c20 c21 c19"></span></p>
-                    <p class="c18 c23 c10"><span class="c22 c20 c19 c28"></span></p>
-                </td>
-            </tr>
-            <tr class="c5">
-                <td class="c26" colspan="1" rowspan="1">
-                    <p class="c13"><span class="c27 c21">&#12641;</span></p>
-                    <h1 class="c12" id="h.gbnhrfggwdei"><span class="c25 c20 c21">Experience</span></h1>
-                </td>
-                <td class="c9" colspan="1" rowspan="1">
-                    <p class="c18"><span
-                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 418.00px; height: 2.67px;"><img
-                                alt="" src="images/image1.png"
-                                style="width: 418.00px; height: 2.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                                title="horizontal line"></span></p>
-                    <h2 class="c14" id="h.y1q60llsp3ln"><span class="c3">Assistant PhD student, UC Santa Cruz</span>
-                    </h2>
-                    <p class="c7"><span class="c1">August 2021 - present</span></p>
-                    <p class="c7"><span class="c0">Research project in Human-Computer Interaction (HCI) and Social
-                            Computing. </span></p>
-                    <p class="c7 c10"><span class="c0"></span></p>
-                    <p class="c7"><span class="c3">Frontend Developer Tech4Good Lab, UC Santa Cruz</span></p>
-                    <p class="c7"><span class="c1">August 2021 - present</span></p>
-                    <p class="c7"><span class="c36 c35 c28">Used HTML, CSS, and Angular to develop a lab website and an
-                            application to support teamwork, foster community, and authentic relationships.</span></p>
-                    <p class="c7 c10"><span class="c0"></span></p>
-                    <p class="c7"><span class="c36 c35 c21">Tutor, UC Santa Cruz</span></p>
-                    <p class="c7"><span class="c1">August 2021 - present</span></p>
-                    <p class="c7"><span class="c0">I have been working as a tutor for cse12 which is an assembly
-                            language class.</span></p>
-                    <p class="c7 c10"><span class="c0"></span></p>
-                    <p class="c7"><span class="c36 c35 c21">Tutor, </span><span class="c21">Berkeley city college</span>
-                    </p>
-                    <p class="c7"><span class="c1">January 2019 - May 2021</span></p>
-                    <p class="c7"><span class="c0">I tutored for CIS27(Data structure), CIS 25(C++), and
-                            Calculus1,2,3.</span></p>
-                    <h2 class="c14" id="h.lvymfn6oxbse"><span class="c16 c19">Uber Driver/post mate delivery
-                            driver/</span></h2>
-                    <p class="c7"><span class="c21">Amazon flex</span><span>&nbsp;</span><span class="c16 c19">driver/
-                            Doordash driver</span></p>
-                    <h3 class="c18" id="h.c0vxg5qvdwla"><span>September 2017 - present</span></h3>
-                    <p class="c7"><span class="c29 c2 c20">I work on all of those gig jobs part-time and
-                            full-time.</span></p>
-                    <p class="c7 c10"><span class="c29 c2 c20"></span></p>
-                    <h2 class="c14" id="h.cz4xyjk7mc1e"><span>Best parking garage</span><span class="c2">&nbsp;/
-                        </span><span class="c16 c19">Valet</span></h2>
-                    <p class="c7"><span class="c21">Iron cloud/security</span><span class="c21">&nbsp;guard</span></p>
-                    <h3 class="c18" id="h.80m0megl6m3e"><span>September 2017</span><span class="c17">&nbsp;-
-                        </span><span>march 2020</span><span class="c17">, &nbsp;</span><span>Sanfrancisco</span></h3>
-                    <p class="c40"><span class="c15">I was working part-time as a valet and security guard to support
-                            myself and my family while attending full-time community college.</span></p>
-                    <h2 class="c34" id="h.jx2g99olagu3"><span>Eritrean Telecommunication</span><span
-                            class="c2">&nbsp;/</span><span>&nbsp;Intern</span></h2>
-                    <h3 class="c18" id="h.qapvr1v5dben"><span>August</span><span
-                            class="c17">&nbsp;</span><span>2011</span><span class="c17">&nbsp;-
-                        </span><span>January</span><span class="c17">&nbsp;</span><span>2012</span><span class="c17">,
-                            &nbsp;</span><span>Eritrea</span></h3>
-                    <p class="c11"><span class="c15">I was an intern in </span><span>Eritrea Telecommunication.</span>
-                    </p>
-                    <h2 class="c14" id="h.az52neiq6t7u"><span>AG internet cafe / IT</span></h2>
-                    <h3 class="c18" id="h.aoj1792hs637"><span>April 2010 - June 2011</span><span class="c17">,
-                            &nbsp;</span><span>Asmara Eritrea</span></h3>
-                    <p class="c40"><span class="c15">I was working as an IT assistant while I was attending full-time
-                            high school.</span></p>
-                </td>
-            </tr>
-            <tr class="c44">
-                <td class="c26" colspan="1" rowspan="1">
-                    <p class="c13"><span class="c27 c21">&#12641;</span></p>
-                    <h1 class="c12" id="h.tk538brb1kdf"><span class="c25 c20 c21">Education</span></h1>
-                </td>
-                <td class="c9" colspan="1" rowspan="1">
-                    <p class="c18"><span
-                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 418.00px; height: 2.67px;"><img
-                                alt="" src="images/image1.png"
-                                style="width: 418.00px; height: 2.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                                title="horizontal line"></span></p>
-                    <h2 class="c14" id="h.r7oinwx5vtl9"><span>University of Santa Cruz</span><span class="c2">&nbsp;/
-                        </span><span class="c28">Computer Engineering </span></h2>
-                    <h3 class="c18" id="h.uqfre138cju9"><span>August</span><span class="c17">&nbsp;</span><span>2021
-                            -</span><span class="c17">&nbsp;</span><span>present</span><span class="c17">,
-                            &nbsp;</span><span class="c19">Santa Cruz</span></h3>
-                    <p class="c11"><span class="c32">I am currently attending my first semester as a transfer student at
-                            the University of Santa Cruz.</span></p>
-                    <h2 class="c34" id="h.u3uy0857ab2n"><span>Berkeley city college</span><span
-                            class="c2">&nbsp;</span><span class="c2">/ </span><span class="c28">Associate in Science,
-                            CIS/ computer information system</span></h2>
-                    <h3 class="c18" id="h.re1qtuma0rpm"><span>August</span><span
-                            class="c17">&nbsp;20</span><span>18</span><span class="c17">&nbsp;-
-                        </span><span>May</span><span class="c17">&nbsp;2</span><span>021</span><span class="c17">,
-                            &nbsp;</span><span>Berkeley city college</span></h3>
-                    <p class="c11"><span class="c15">I attended Berkeley city community college when I first came to the
-                            U.S to pursue my dream as a computer engineer.</span></p>
-                </td>
-            </tr>
-            <tr class="c49">
-                <td class="c26" colspan="1" rowspan="1">
-                    <p class="c13"><span class="c21 c27">&#12641;</span></p>
-                    <h1 class="c12" id="h.skqh4zb6ceyb"><span class="c20 c21 c25">Awards</span></h1>
-                </td>
-                <td class="c9" colspan="1" rowspan="1">
-                    <p class="c18"><span
-                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 418.00px; height: 2.67px;"><img
-                                alt="" src="images/image1.png"
-                                style="width: 418.00px; height: 2.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                                title="horizontal line"></span></p>
-                    <p class="c41"><span class="c15">Certificate of Achievement, Computer Programming with c++.</span>
-                    </p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <p class="c23 c10 c48"><span class="c22 c20 c15 c28"></span></p>
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-top:0in;border:none'><span lang=EN-GB
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<table class=a border=0 cellspacing=0 cellpadding=0 width=672 style='margin-left:
+ -1.4pt;border-collapse:collapse'>
+ <tr style='height:120.0pt'>
+  <td width=235 valign=top style='width:176.25pt;padding:.05in .05in .05in .05in;
+  height:120.0pt'>
+  <p class=MsoTitle style='margin-top:0in;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Betros<a
+  name="_4prkjmzco10w"></a> Abraha</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoSubtitle style='page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  color:windowtext'>Aspiring Engineer<a name="_o2iwx3vdck7p"></a></span></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Arial Unicode MS",sans-serif'>&#12641;</span></b></p>
+  <p class=MsoNormal><b><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif'>Profile</span></b></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  </td>
+  <td width=437 valign=top style='width:327.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+  height:120.0pt'>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'><img width=418
+  height=3 id=image1.png src="index_files/image001.gif" alt="horizontal line"></span></p>
+  <h1 style='border:none'><span lang=EN-GB style='font-family:"Times New Roman",serif;
+  font-weight:normal'>bbabraha@ucsc.edu</span></h1>
+  <h1 style='border:none'><span lang=EN-GB style='font-family:"Times New Roman",serif;
+  font-weight:normal'>5109876603</span></h1>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>Oakland</span></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'><img width=418
+  height=3 src="index_files/image001.gif" alt="horizontal line"></span></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:116%'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:116%;font-family:"Times New Roman",serif;
+  color:#212529'>I am a third-year majoring in Computer Science and Engineering
+  at the University of California Santacruz. I am a data-driven and
+  analytical-minded student. I enjoy broadening my horizons on new technologies
+  such as AI, machine learning &amp; Robotics. I also seek to develop my skills
+  through internships and work experience. As a first-generation African
+  student, I aim to serve as a positive role model in my community. </span></p>
+  </td>
+ </tr>
+ <tr style='height:1.0in'>
+  <td width=235 valign=top style='width:176.25pt;padding:.05in .05in .05in .05in;
+  height:1.0in'>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><a
+  name="_lf5wiiqsu4ub"></a><b><span lang=EN-GB style='font-size:12.0pt;
+  font-family:"Arial Unicode MS",sans-serif'>&#12641;</span></b></p>
+  <h1 style='page-break-after:auto;border:none'><span lang=EN-GB
+  style='font-family:"Times New Roman",serif'>Skills<a name="_61e3cm1p1fln"></a></span></h1>
+  </td>
+  <td width=437 valign=top style='width:327.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+  height:1.0in'>
+  <p class=MsoNormal style='margin-top:0in;border:none'><span style='font-size:
+  12.0pt;line-height:115%;font-family:"Times New Roman",serif'><img width=418
+  height=3 id=image5.png src="index_files/image001.gif" alt="horizontal line"></span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  color:#212529'>Programming language (C, C++, and Java) </span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  color:#212529'>Computational programming</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  color:#212529'>Human machine interfacing, wireless networking, robotic
+  mechanisms, spatial kinematics, 3D graphics Python, and HTML. </span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  color:#212529'>Operating systems: Android, Linux/Unix, Mac, Windows, and mobile
+  applications. </span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  color:#212529'>Programs: MATLAB, and AUTOCAD. </span></p>
+  </td>
+ </tr>
+ <tr style='height:265.0pt'>
+  <td width=235 valign=top style='width:176.25pt;padding:.05in .05in .05in .05in;
+  height:265.0pt'>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Arial Unicode MS",sans-serif'>&#12641;</span></b></p>
+  <h1 style='page-break-after:auto;border:none'><span lang=EN-GB
+  style='font-family:"Times New Roman",serif'>Experience<a name="_gbnhrfggwdei"></a></span></h1>
+  </td>
+  <td width=437 valign=top style='width:327.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+  height:265.0pt'>
+  <p class=MsoNormal style='margin-top:0in;border:none'><span style='font-size:
+  12.0pt;line-height:115%;font-family:"Times New Roman",serif'><img width=418
+  height=3 id=image2.png src="index_files/image001.gif" alt="horizontal line"></span></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  color:windowtext'>Assistant PhD student, UC Santa Cruz<a name="_80m0megl6m3e"></a></span></b></h3>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>August
+  2021 – Present, Santa Cruz</span></h3>
+  <p class=MsoNormal style='margin-top:5.0pt;line-height:normal;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>Research
+  project in Human-Computer Interaction (HCI) and social computing </span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;line-height:normal;border:none'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>So far, I have
+  gained knowledge on how humans relate with computer and how we can use the
+  knowledge we have to enhance and create better products and services. My
+  goals in computer engineering are therefore to ensure computers and
+  information technology does not pose any risk to the users.</span></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  color:windowtext'>&nbsp;</span></b></h3>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  color:windowtext'>Frontend Developer Tech4Good Lab, UC Santa Cruz<a
+  name="_qapvr1v5dben"></a></span></b></h3>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>August
+  2021 - Present, Santa Cruz</span></h3>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Used
+  HTML, CSS, and Angular to develop a lab website and an application to support
+  teamwork, foster community, and authentic relationships. </span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>I
+  also worked closely with my colleagues to refine debugging process. </span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  color:windowtext'>Tutor, UC Santa Cruz <a name="_aoj1792hs637"></a></span></b></h3>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>August
+  2021 – present, Santa Cruz</span></h3>
+  <p class=MsoNormal style='margin-top:5.0pt;line-height:normal;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>I
+  have been working as a tutor for cse12 which is an assembly language class.</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;line-height:normal;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>Tutor,
+  Berkeley city college</span></b></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>January
+  2019 – May 2021, Berkeley</span></h3>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>I tutored for CIS27 (Data structure),
+  CIS 25(C++), and Calculus1, 2,3.</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal><b><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif'>Valet Attendant, Best parking
+  garage / Security guard, Iron cloud</span></b></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>July
+  2017 – March 2020, San Francisco</span></h3>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>I was working part-time as a valet and
+  security guard to support myself and my family while attending full-time
+  community college.</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal><b><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif'>IT Technician, Saron Internet Cafe</span></b></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>February
+  2016 – March 2017, Addis Ababa, Ethiopia</span></h3>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>Install, troubleshoot, and fix hardware
+  and software in the Internet Cafe. I also used this time to help my clients
+  maintain web pages on WordPress. It was during this time that I explored my
+  interest in programming language, python, and C++ to be specific. </span></p>
+  <p class=MsoNormal><b><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif'>Assistant IT Technician, Eritrean
+  Telecommunication Company</span></b></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>December
+  2013 – February 2016, Asmara, Eritrea</span></h3>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>Install, troubleshoot, and fix hardware
+  and software in the Internet Cafe. </span><span style='font-size:12.0pt;
+  line-height:115%;font-family:"Times New Roman",serif'>I also helped in
+  maintaining and operating communication systems and computer networks.</span></p>
+  <p class=MsoNormal><b><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif'>Assistant IT Technician, AG
+  internet cafe</span></b></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>April
+  2010 – June 2011, Asmara, Eritrea</span></h3>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>I was working as an IT assistant
+  installing, troubleshoot, and fixing hardware and software, while I was
+  attending full-time high school.</span></p>
+  </td>
+ </tr>
+ <tr style='height:182.0pt'>
+  <td width=235 valign=top style='width:176.25pt;padding:.05in .05in .05in .05in;
+  height:182.0pt'>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><a
+  name="_y1q60llsp3ln"></a><a name="_bzmuwmfhy523"></a><b><span lang=EN-GB
+  style='font-size:12.0pt;font-family:"Arial Unicode MS",sans-serif'>&#12641;</span></b></p>
+  <h1 style='page-break-after:auto;border:none'><span lang=EN-GB
+  style='font-family:"Times New Roman",serif'>Education<a name="_tk538brb1kdf"></a></span></h1>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Arial Unicode MS",sans-serif'>&#12641;</span></b></p>
+  <p class=MsoNormal><b><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+  <p class=MsoNormal><b><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif'>Projects</span></b></p>
+  </td>
+  <td width=437 valign=top style='width:327.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt;
+  height:182.0pt'>
+  <p class=MsoNormal style='margin-top:0in;border:none'><span style='font-size:
+  12.0pt;line-height:115%;font-family:"Times New Roman",serif'><img width=418
+  height=3 src="index_files/image001.gif" alt="horizontal line"></span></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><b><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  color:windowtext'>University of Santa Cruz / </span></b><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+  color:windowtext'>Computer Engineering<a name="_uqfre138cju9"></a></span></h3>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>June
+  2021 – Present, SANTA CRUZ</span></h3>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>I
+  am currently on my first semester as at the university of Santa Cruz as a
+  transfer student. </span></p>
+  <h2 style='margin-top:16.0pt;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Berkeley
+  City College/ </span><span lang=EN-GB style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman",serif;font-weight:normal'>Associate in
+  Science, CIS/Computer information system</span></h2>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>August
+  2018 – May 2021, Berkeley City College</span></h3>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>I
+  joined Berkeley City College upon my arrival to the United States to pursue
+  my dream in computer engineering and information Technology. </span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><b><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>{Name
+  of High school}/ High school certificate</span></b></p>
+  <h3 style='margin-top:0in;page-break-after:auto;border:none'><span
+  lang=EN-GB style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Month,
+  Year- Month, Year, Eritrea</span></h3>
+  <p class=MsoNormal><span lang=EN-GB style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman",serif'>I successfully completed my high school
+  education and was awarded a certificate having attained all the requirements
+  put in place by the Eritrean curriculum. </span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'><img
+  width=418 height=3 id=image4.png src="index_files/image001.gif"
+  alt="horizontal line"></span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Helped
+  internet cafes in my city build local multimedia and entertainment websites.</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Tutored
+  maths and physics to immigrants and helped them familiarize with programming
+  languages (C, C++, and java). </span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Worked
+  as a valet in a parking lot, where I have been building an application with
+  C++ that can count how many vehicles are in the lot and how many open spots
+  are left.&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Was
+  part of a team that built machines that could bend metal sheets to different
+  shapes manually with a bit of human labour, and we later modified the machine
+  to work with electricity by pushing a button during my tenure at the
+  technical college.</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Using
+  Python, I built a toy car that can be operated by a remote controller and can
+  avoid accidents.</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><b><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Current
+  projects </span></b></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>I
+  am working on a Dji drone project with classmates whom I have met while
+  taking C++ programming language.&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:5.0pt;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>We
+  plan on programming a detection mechanism that can detect an ordered object
+  and follow its movement and direction.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=235 valign=top style='width:176.25pt;padding:.05in .05in .05in .05in'>
+  <p class=MsoNormal style='margin-top:0in;line-height:normal;border:none'><a
+  name="_r7oinwx5vtl9"></a><a name="_u3uy0857ab2n"></a><a name="_re1qtuma0rpm"></a><b><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Arial Unicode MS",sans-serif'>&#12641;</span></b></p>
+  <h1 style='page-break-after:auto;border:none'><span lang=EN-GB
+  style='font-family:"Times New Roman",serif'>Awards<a name="_skqh4zb6ceyb"></a></span></h1>
+  </td>
+  <td width=437 valign=top style='width:327.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='margin-top:0in;border:none'><span style='font-size:
+  12.0pt;line-height:115%;font-family:"Times New Roman",serif'><img width=418
+  height=3 id=image3.png src="index_files/image001.gif" alt="horizontal line"></span></p>
+  <p class=MsoNormal style='line-height:normal;border:none'><span lang=EN-GB
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Certificate of
+  Achievement, Computer Programming with C++.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-top:0in;border:none'><span lang=EN-GB
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+</div>
+
 </body>
 
 </html>
